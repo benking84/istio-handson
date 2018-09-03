@@ -12,5 +12,5 @@
 ./istioctl delete virtualservice productpage
 
 #apply default destination rules and virtual services
-kubectl apply -f samples/bookinfo/networking/destination-rule-all.yaml
-kubectl apply -f samples/bookinfo/networking/virtual-service-all-v1.yaml
+kubectl apply -f destination-rule-all.yaml
+kubectl apply -f virtual-service-all-v1.yaml
